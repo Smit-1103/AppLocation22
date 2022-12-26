@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F9FD"
+    android:orientation="vertical"
+    android:weightSum="20"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="30sp"
+            android:src="@drawable/ic_baseline_share_location_24">
+        </ImageView>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvArea"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#B2C8DF"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="Area"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#FFFDA2"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="City"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#ECA6A6"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="State"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCountry"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#FEC260"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="Country"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvPin"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2"
+        android:background="#ECB390"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="PinCode"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="2">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+    </LinearLayout>
+
+</LinearLayout>
+
